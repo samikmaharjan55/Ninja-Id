@@ -23,7 +23,7 @@ class NinjaCard extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Center(
+              const Center(
                 child: CircleAvatar(
                   backgroundImage: AssetImage('assets/11.jpg'),
                   radius: 40.0,
